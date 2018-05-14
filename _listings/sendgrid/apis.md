@@ -36,9 +36,9 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/segments/master/_listings/sendgrid/contactdb-segments-segment-id-recipients-get.md
-- name: SendGrid Get Contactdb Segments Segment
+- name: SendGrid Patch Contactdb Segments Segment
   description: |-
-    **This endpoint allows you to retrieve a single segment with the given ID.**
+    **This endpoint allows you to update a segment.**
 
     The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
 
@@ -49,9 +49,7 @@ apis:
   tags: Segments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/segments/master/_listings/sendgrid/contactdb-segments-segment-id-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/segments/master/_listings/sendgrid/contactdb-segments-segment-id-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/segments/master/_listings/sendgrid/contactdb-segments-segment-id-patch.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
