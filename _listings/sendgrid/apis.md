@@ -36,11 +36,9 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/segments/master/_listings/sendgrid/contactdb-segments-segment-id-recipients-get.md
-- name: SendGrid Delete Contactdb Segments Segment
+- name: SendGrid Get Contactdb Segments Segment
   description: |-
-    **This endpoint allows you to delete a segment from your recipients database.**
-
-    You also have the option to delete all the contacts from your Marketing Campaigns recipient database who were in this segment.
+    **This endpoint allows you to retrieve a single segment with the given ID.**
 
     The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
 
@@ -51,7 +49,9 @@ apis:
   tags: Segments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/segments/master/_listings/sendgrid/contactdb-segments-segment-id-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/segments/master/_listings/sendgrid/contactdb-segments-segment-id-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/segments/master/_listings/sendgrid/contactdb-segments-segment-id-get-postman.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
