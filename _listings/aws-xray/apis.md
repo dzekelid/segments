@@ -32,7 +32,26 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/segments/master/_listings/aws-xray/action-puttracesegments-get.md
+- name: AWS X-Ray API Put Trace Segments
+  description: Uploads segment documents to AWS X-Ray.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-xray.png
+  humanURL: https://aws.amazon.com/xray/
+  baseURL: http:://{host}//
+  tags: Segments
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/segments/master/_listings/aws-xray/action-puttracesegments-get.md
 x-common:
+- type: x-documentation
+  url: http://docs.aws.amazon.com/xray/latest/api/Welcome.html
+- type: x-faq
+  url: https://aws.amazon.com/xray/faqs/
+- type: x-getting-started
+  url: https://aws.amazon.com/xray/getting-started/
+- type: x-pricing
+  url: https://aws.amazon.com/xray/pricing/
+- type: x-website
+  url: https://aws.amazon.com/xray/
 - type: x-documentation
   url: http://docs.aws.amazon.com/xray/latest/api/Welcome.html
 - type: x-faq
