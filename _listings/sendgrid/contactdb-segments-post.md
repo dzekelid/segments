@@ -1,11 +1,25 @@
 ---
 swagger: "2.0"
 info:
-  title: SendGrid
-  description: 'The SendGrid Web API V3 Documentation. This is the entirety of the
-    documented v3 endpoints. We have updated all the descriptions, parameters, requests,
-    and responses. Authentication Every endpoint requires Authentication in the form
-    of an Authorization Header: Authorization: Bearer API_KEY'
+  title: SendGrid Add Contactdb Segments
+  description: "**This endpoint allows you to create a segment.**\n\nAll recipients
+    in your contactdb will be added or removed automatically depending on whether
+    they match the criteria for this segment.\n\nList Id:\n\n* Send this to segment
+    from an existing list\n* Don't send this in order to segment from your entire
+    contactdb.\n\nValid operators for create and update depend on the type of the
+    field you are segmenting: \n\n* **Dates:** \"eq\", \"ne\", \"lt\" (before), \"gt\"
+    (after) \n* **Text:** \"contains\", \"eq\" (is - matches the full field), \"ne\"
+    (is not - matches any field where the entire field is not the condition value)
+    \n* **Numbers:** \"eq\", \"lt\", \"gt\" \n* **Email Clicks and Opens:** \"eq\"
+    (opened), \"ne\" (not opened) \n\nSegment conditions using \"eq\" or \"ne\" for
+    email clicks and opens should provide a \"field\" of either *clicks.campaign_identifier*
+    or *opens.campaign_identifier*. The condition value should be a string containing
+    the id of a completed campaign. \n\nSegments may contain multiple condtions, joined
+    by an \"and\" or \"or\" in the \"and_or\" field. The first condition in the conditions
+    list must have an empty \"and_or\", and subsequent conditions must all specify
+    an \"and_or\".\n\nThe Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html)
+    recipients.\n\nFor more information about segments in Marketing Campaigns, please
+    see our [User Guide](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/lists.html#-Create-a-Segment)."
   version: 1.0.0
 host: api.sendgrid.com
 basePath: /v3
