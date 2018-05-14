@@ -41,6 +41,16 @@ x-common:
   url: https://aws.amazon.com/pinpoint/pricing/
 - type: x-website
   url: https://aws.amazon.com/pinpoint/
+- type: x-blog
+  url: https://aws.amazon.com/blogs/aws/amazon-pinpoint-hit-your-targets-with-aws/
+- type: x-documentation
+  url: http://docs.aws.amazon.com/pinpoint/latest/apireference/welcome.html
+- type: x-faq
+  url: https://aws.amazon.com/pinpoint/faqs/
+- type: x-pricing
+  url: https://aws.amazon.com/pinpoint/pricing/
+- type: x-website
+  url: https://aws.amazon.com/pinpoint/
 include: []
 maintainers:
 - FN: Kin Lane
