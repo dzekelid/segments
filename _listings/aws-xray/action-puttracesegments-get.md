@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS X-Ray API
+  title: AWS X-Ray API Put Trace Segments
   version: 1.0.0
+  description: Uploads segment documents to AWS X-Ray.
 schemes:
 - http
 produces:
