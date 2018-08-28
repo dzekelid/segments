@@ -162,6 +162,34 @@ paths:
       - Contactdb
       - Segments
       - Segment
+  /contactdb/segments/{segment_id}/recipients:
+    get:
+      summary: Get Contactdb Segments Segment  Recipients
+      description: |-
+        **This endpoint allows you to retrieve all of the recipients in a segment with the given ID.**
+
+        The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
+
+        For more information about segments in Marketing Campaigns, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/lists.html#-Create-a-Segment).
+      operationId: contactdb.segments.segment_id.recipients.get
+      x-api-path-slug: contactdbsegmentssegment-idrecipients-get
+      parameters:
+      - in: query
+        name: No Name
+      - in: query
+        name: page
+      - in: query
+        name: page_size
+      responses:
+        200:
+          description: OK
+      tags:
+      - Email
+      - Contactdb
+      - Segments
+      - Segment
+      - ""
+      - Recipients
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

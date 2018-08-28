@@ -45,6 +45,48 @@ paths:
           description: OK
       tags:
       - Segments
+    put:
+      summary: Segment Instance
+      description: Use the PUT method to update a segment.
+      operationId: updateSegmentInstance
+      x-api-path-slug: appsapplicationidsegmentssegmentid-put
+      responses:
+        200:
+          description: OK
+      tags:
+      - Segments
+    delete:
+      summary: Segment Instance
+      description: Use the DELETE method to delete a segment.
+      operationId: deleteSegmentInstance
+      x-api-path-slug: appsapplicationidsegmentssegmentid-delete
+      responses:
+        200:
+          description: OK
+      tags:
+      - Segments
+  /apps/application-id/segment/versions:
+    get:
+      summary: Segment Versions List
+      description: Use the GET method to request information about your segment versions.
+      operationId: getSegmentVersionsList
+      x-api-path-slug: appsapplicationidsegmentversions-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Segments
+  /apps/application-id/segments/segment-id/versions/version:
+    get:
+      summary: Segment Version Instance
+      description: Use the GET method to request information about a segment version.
+      operationId: getSegmentVersionInstance
+      x-api-path-slug: appsapplicationidsegmentssegmentidversionsversion-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Segments
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

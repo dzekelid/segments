@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: AWS Pinpoint
 x-complete: 1
@@ -86,4 +85,22 @@ paths:
           description: OK
       tags:
       - Segments
----
+  /apps/application-id/segments/segment-id/jobs/import:
+    get:
+      summary: Import Job List by Segment
+      description: Use the GET method to request information about the import jobs
+        for a segment.
+      operationId: importJobListbySegment
+      x-api-path-slug: appsapplicationidsegmentssegmentidjobsimport-get
+      parameters:
+      - in: header
+        name: accept
+        description: 'Specify the media type you will accept as a response:  application/json
+          ??? A JSON response body'
+        type: string
+        format: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Import Job

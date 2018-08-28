@@ -7,13 +7,13 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgr
 x-kinRank: "9"
 x-alexaRank: "10000"
 tags: Segments
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/segments/master/_listings/sendgrid/apis.md
 specificationVersion: "0.14"
 apis:
-- name: SendGrid Get Contactdb Segments
-  x-api-slug: sendgrid
+- name: SendGrid - Get Contactdb Segments
+  x-api-slug: contactdbsegments-get
   description: |-
     **This endpoint allows you to retrieve all of your segments.**
 
@@ -22,15 +22,16 @@ apis:
     For more information about segments in Marketing Campaigns, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/lists.html#-Create-a-Segment).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//contactdb/segments
-  tags: Email,Contactdb, Segments
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/segments/master/_listings/sendgrid/contactdbsegments-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/segments/master/_listings/sendgrid/contactdbsegments-get-openapi.md
-- name: SendGrid Add Contactdb Segments
-  x-api-slug: sendgrid
+- name: SendGrid - Add Contactdb Segments
+  x-api-slug: contactdbsegments-post
   description: "**This endpoint allows you to create a segment.**\n\nAll recipients
     in your contactdb will be added or removed automatically depending on whether
     they match the criteria for this segment.\n\nList Id:\n\n* Send this to segment
@@ -51,13 +52,14 @@ apis:
     see our [User Guide](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/lists.html#-Create-a-Segment)."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//contactdb/segments
-  tags: Email,Contactdb, Segments
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/segments/master/_listings/sendgrid/contactdbsegments-post-openapi.md
-- name: SendGrid Delete Contactdb Segments Segment
-  x-api-slug: sendgrid
+- name: SendGrid - Delete Contactdb Segments Segment
+  x-api-slug: contactdbsegmentssegment-id-delete
   description: |-
     **This endpoint allows you to delete a segment from your recipients database.**
 
@@ -68,13 +70,14 @@ apis:
     For more information about segments in Marketing Campaigns, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/lists.html#-Create-a-Segment).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//contactdb/segments/{segment_id}
-  tags: Email,Contactdb, Segments, Segment
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/segments/master/_listings/sendgrid/contactdbsegmentssegment-id-delete-openapi.md
-- name: SendGrid Get Contactdb Segments Segment
-  x-api-slug: sendgrid
+- name: SendGrid - Get Contactdb Segments Segment
+  x-api-slug: contactdbsegmentssegment-id-get
   description: |-
     **This endpoint allows you to retrieve a single segment with the given ID.**
 
@@ -83,15 +86,16 @@ apis:
     For more information about segments in Marketing Campaigns, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/lists.html#-Create-a-Segment).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//contactdb/segments/{segment_id}
-  tags: Email,Contactdb, Segments, Segment
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/segments/master/_listings/sendgrid/contactdbsegmentssegment-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/segments/master/_listings/sendgrid/contactdbsegmentssegment-id-get-openapi.md
-- name: SendGrid Patch Contactdb Segments Segment
-  x-api-slug: sendgrid
+- name: SendGrid - Patch Contactdb Segments Segment
+  x-api-slug: contactdbsegmentssegment-id-patch
   description: |-
     **This endpoint allows you to update a segment.**
 
@@ -100,13 +104,14 @@ apis:
     For more information about segments in Marketing Campaigns, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/lists.html#-Create-a-Segment).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//contactdb/segments/{segment_id}
-  tags: Email,Contactdb, Segments, Segment
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/segments/master/_listings/sendgrid/contactdbsegmentssegment-id-patch-openapi.md
-- name: SendGrid Get Contactdb Segments Segment  Recipients
-  x-api-slug: sendgrid
+- name: SendGrid - Get Contactdb Segments Segment  Recipients
+  x-api-slug: contactdbsegmentssegment-idrecipients-get
   description: |-
     **This endpoint allows you to retrieve all of the recipients in a segment with the given ID.**
 
@@ -115,29 +120,231 @@ apis:
     For more information about segments in Marketing Campaigns, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/lists.html#-Create-a-Segment).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//contactdb/segments/{segment_id}/recipients
-  tags: Email,Contactdb, Segments, Segment, , Recipients
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/segments/master/_listings/sendgrid/contactdbsegmentssegment-idrecipients-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/segments/master/_listings/sendgrid/contactdbsegmentssegment-idrecipients-get-openapi.md
-- name: SendGrid
-  x-api-slug: sendgrid
-  description: SendGrids cloud-based email infrastructure relieves businesses of the
-    cost and complexity of maintaining custom email systems. SendGrid provides reliable
-    delivery, scalability and real-time analytics along with flexible APIs that make
-    custom integration a breeze.
+- name: SendGrid - Delete Contactdb Segments Segment
+  x-api-slug: contactdbsegmentssegment-id-delete
+  description: |-
+    **This endpoint allows you to delete a segment from your recipients database.**
+
+    You also have the option to delete all the contacts from your Marketing Campaigns recipient database who were in this segment.
+
+    The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
+
+    For more information about segments in Marketing Campaigns, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/lists.html#-Create-a-Segment).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3
-  tags: Segments
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/segments/master/_listings/sendgrid/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/segments/master/_listings/sendgrid/contactdbsegmentssegment-id-delete-openapi.md
+- name: SendGrid - Get Contactdb Segments Segment
+  x-api-slug: contactdbsegmentssegment-id-get
+  description: |-
+    **This endpoint allows you to retrieve a single segment with the given ID.**
+
+    The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
+
+    For more information about segments in Marketing Campaigns, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/lists.html#-Create-a-Segment).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/segments/master/_listings/sendgrid/contactdbsegmentssegment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/segments/master/_listings/sendgrid/contactdbsegmentssegment-id-get-openapi.md
+- name: SendGrid - Patch Contactdb Segments Segment
+  x-api-slug: contactdbsegmentssegment-id-patch
+  description: |-
+    **This endpoint allows you to update a segment.**
+
+    The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
+
+    For more information about segments in Marketing Campaigns, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/lists.html#-Create-a-Segment).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/segments/master/_listings/sendgrid/contactdbsegmentssegment-id-patch-openapi.md
+- name: SendGrid - Get Contactdb Segments Segment  Recipients
+  x-api-slug: contactdbsegmentssegment-idrecipients-get
+  description: |-
+    **This endpoint allows you to retrieve all of the recipients in a segment with the given ID.**
+
+    The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
+
+    For more information about segments in Marketing Campaigns, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/lists.html#-Create-a-Segment).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/segments/master/_listings/sendgrid/contactdbsegmentssegment-idrecipients-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/segments/master/_listings/sendgrid/contactdbsegmentssegment-idrecipients-get-openapi.md
+- name: SendGrid - Delete Contactdb Segments Segment
+  x-api-slug: contactdbsegmentssegment-id-delete
+  description: |-
+    **This endpoint allows you to delete a segment from your recipients database.**
+
+    You also have the option to delete all the contacts from your Marketing Campaigns recipient database who were in this segment.
+
+    The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
+
+    For more information about segments in Marketing Campaigns, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/lists.html#-Create-a-Segment).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/segments/master/_listings/sendgrid/contactdbsegmentssegment-id-delete-openapi.md
+- name: SendGrid - Get Contactdb Segments Segment
+  x-api-slug: contactdbsegmentssegment-id-get
+  description: |-
+    **This endpoint allows you to retrieve a single segment with the given ID.**
+
+    The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
+
+    For more information about segments in Marketing Campaigns, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/lists.html#-Create-a-Segment).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/segments/master/_listings/sendgrid/contactdbsegmentssegment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/segments/master/_listings/sendgrid/contactdbsegmentssegment-id-get-openapi.md
+- name: SendGrid - Patch Contactdb Segments Segment
+  x-api-slug: contactdbsegmentssegment-id-patch
+  description: |-
+    **This endpoint allows you to update a segment.**
+
+    The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
+
+    For more information about segments in Marketing Campaigns, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/lists.html#-Create-a-Segment).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/segments/master/_listings/sendgrid/contactdbsegmentssegment-id-patch-openapi.md
+- name: SendGrid - Get Contactdb Segments Segment  Recipients
+  x-api-slug: contactdbsegmentssegment-idrecipients-get
+  description: |-
+    **This endpoint allows you to retrieve all of the recipients in a segment with the given ID.**
+
+    The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
+
+    For more information about segments in Marketing Campaigns, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/lists.html#-Create-a-Segment).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/segments/master/_listings/sendgrid/contactdbsegmentssegment-idrecipients-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/segments/master/_listings/sendgrid/contactdbsegmentssegment-idrecipients-get-openapi.md
+- name: SendGrid - Get Contactdb Segments Segment  Recipients
+  x-api-slug: contactdbsegmentssegment-idrecipients-get
+  description: |-
+    **This endpoint allows you to retrieve all of the recipients in a segment with the given ID.**
+
+    The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
+
+    For more information about segments in Marketing Campaigns, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/lists.html#-Create-a-Segment).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/segments/master/_listings/sendgrid/contactdbsegmentssegment-idrecipients-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/segments/master/_listings/sendgrid/contactdbsegmentssegment-idrecipients-get-openapi.md
+- name: SendGrid - Patch Contactdb Segments Segment
+  x-api-slug: contactdbsegmentssegment-id-patch
+  description: |-
+    **This endpoint allows you to update a segment.**
+
+    The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
+
+    For more information about segments in Marketing Campaigns, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/lists.html#-Create-a-Segment).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/segments/master/_listings/sendgrid/contactdbsegmentssegment-id-patch-openapi.md
+- name: SendGrid - Get Contactdb Segments Segment
+  x-api-slug: contactdbsegmentssegment-id-get
+  description: |-
+    **This endpoint allows you to retrieve a single segment with the given ID.**
+
+    The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
+
+    For more information about segments in Marketing Campaigns, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/lists.html#-Create-a-Segment).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/segments/master/_listings/sendgrid/contactdbsegmentssegment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/segments/master/_listings/sendgrid/contactdbsegmentssegment-id-get-openapi.md
+- name: SendGrid - Delete Contactdb Segments Segment
+  x-api-slug: contactdbsegmentssegment-id-delete
+  description: |-
+    **This endpoint allows you to delete a segment from your recipients database.**
+
+    You also have the option to delete all the contacts from your Marketing Campaigns recipient database who were in this segment.
+
+    The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
+
+    For more information about segments in Marketing Campaigns, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/lists.html#-Create-a-Segment).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/segments/master/_listings/sendgrid/contactdbsegmentssegment-id-delete-openapi.md
 x-common:
 - type: x--net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
+- type: x-api-gallery
+  url: http://school.digger.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://sendgrid.stack.network
 - type: x-base
   url: https://api.sendgrid.com
 - type: x-blog
